@@ -15,7 +15,7 @@ variable "api_key" {
 
 variable "web_app_name" {
   type        = string
-  default     = "my-best-shop"
+  default     = "my-top-shop"
   description = "Web App Name. Also used as a prefix in names of related resources."
 }
 
@@ -32,7 +32,7 @@ variable "volterra_namespace" {
 }
 
 variable "app_domain" {
-  default     = ["shop20.ves.foobz.com.au"]
+  default     = ["shop10.ves.foobz.com.au"]
   description = "FQDN for the app. If you have delegated domain `prod.example.com`, then your app_domain can be `<app_name>.prod.example.com`"
 }
 
